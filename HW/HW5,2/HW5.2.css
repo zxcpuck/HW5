@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.one>li:nth-child(even){
+    color: pink;
+}
+
+.second>li:nth-child(odd){
+    font-size: 22px;
+}
+
+.third>li:nth-child(2n+4):after{
+    content: "!";
+}
+
+.fourth>li:last-child{
+    color: purple;
+}
+
+.fifth>li:first-letter{
+    font-size: 33px;
+    color: red;
+}
